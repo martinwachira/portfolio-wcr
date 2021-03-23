@@ -1,0 +1,131 @@
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+  background: transparent;
+  color: #7510F7;
+  padding: 22px 0;
+  transition: padding 0.3s linear;
+  -webkit-transition: padding 0.3s linear;
+  z-index: 999;
+}
+
+.navbar > .navbar-container {
+
+  width: 100%;
+}
+
+.navbar-fixed {
+  padding: 0 !important;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+  animation: .6s slideDown forwards;
+}
+
+.navbar-fixed .navbar-container {
+  height: 60px !important;
+}
+
+.navbar-fixed .navbartop-btn {
+  line-height: 60px !important;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo a {
+  display: inherit;
+}
+
+.navbar-item img {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+}
+
+.navbar-toggle {
+  display: none !important;
+  position: absolute !important;
+  top: 15px;
+  right: 50px;
+
+}
+
+i {
+  font-size: 20px;
+  color: #141e3a;
+  height: 3.25rem;
+  cursor: pointer;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.navbar-start {
+  display: none;
+}
+
+.navbar-link {
+  color: #06070e;
+}
+
+.top-navbar .navbar-link:hover {
+  color: #7510F7;
+}
+
+
+@media screen and (min-width: 991px) {
+  .navbar-link {
+    padding-right: 4em;
+  }
+  .navbar-container {
+    display: flex;
+  }
+
+  .navbar-mobile-top {
+    width: 83.0581%;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .navbar {
+    padding: 0;
+  }
+  .navbar > .navbar-container {
+      height: 60px;
+      padding: 0;
+  }
+  .navbar-opened:host .navbar-mobile-top {
+    padding: 13px 0;
+  }
+ .navbar-toggle {
+      display: block !important;
+  }
+  .navbar-opened:host .container {
+      height: auto !important;
+      padding: 0px !important;
+  }
+  .navbar-logo {
+      margin-left: 15px;
+  }
+  .top-navbar {
+      display: none !important;
+  }
+  .navbar-opened:host .top-navbar {
+    display: block !important;
+    width: 100% !important;
+    height: auto;
+    flex: none !important;
+    color: #000;
+    background: transparent;
+    text-align: center;
+  }
+  .navbar-opened:host .top-navbar a {
+      display: block;
+      margin: 2em auto;
+      max-width: 40%;
+  }
+}

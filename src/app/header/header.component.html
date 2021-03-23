@@ -1,0 +1,19 @@
+
+<nav class="navbar is-transparent" [ngClass]="{'navbar-fixed': isFixedNavbar}">
+  <div class="navbar-container">
+    <div class="navbar-mobile-top">
+       <div class="navbar-logo">
+        <a class="navbar-item" href="#home"><img alt="martin wcr" src="https://avatars0.githubusercontent.com/u/60017194?s=460&u=4f41dcda0eba3cc5f88d308526838dac6a5565fa&v=4"></a>
+       </div>
+       <div color="accent" class="navbar-toggle" (click)="toggleNavbar()">
+          <i class="{{!navbarOpened ? 'fas fa-bars': 'fas fa-bars'}}" ></i>
+       </div>
+    </div>
+    <div class="top-navbar">
+       <span></span>
+       <a href="#about" class="navbartop-btn navbar-link">About</a>
+       <a href="#projects" class="button navbartop-btn is--primary is--outline is--rounded">Projects</a>
+    </div>
+  </div>
+</nav>
+

@@ -1,0 +1,40 @@
+.scroll-to-top {
+  opacity: 0;
+  transform: all .2s ease-in-out;
+}
+
+.show-scrollTop {
+  opacity: 1;
+  transition: all .2s ease-in-out;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: grey;
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 40px;
+  font-size: 1.18rem;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 796px) {
+  .scroll-to-top {
+    position: fixed;
+    bottom: 5em;
+    right: 2em;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .scroll-to-top {
+    position: fixed;
+    bottom: 5em;
+    right: 0.4em;
+  }
+}
+

@@ -1,0 +1,59 @@
+.footer {
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.container {
+  height: 70vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.btn .fa {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  margin: 0 .8rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  height: 50px;
+  width: 50px;
+  font-size: 1.18rem;
+  border-radius: 50%;
+  outline: none;
+}
+
+.btn .fa:hover {
+  background-color: white;
+  transition: all .2s ease-in-out;
+}
+
+i.twt {
+  color: #55ACEE;
+}
+
+i.fb {
+  color: #3B5998;
+}
+
+i.lkd {
+  color: #0082CA;
+}
+
+i.ggl {
+  color: #da5964;
+}
+
+.fcop {
+  color: #151b4a;
+  padding: 15px;
+  text-align: center;
+  font-weight: bolder;
+}
