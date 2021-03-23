@@ -16,7 +16,7 @@
   width: 15em;
   height: 15em;
   margin: 3em 0;
-  background-color: #7510F7;
+  background-color: #f7ef10;
   border-radius: 50%;
 }
 
@@ -44,18 +44,22 @@ h1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 30px;
-  height: 30px;
-  margin: 0 .8em;
+  width: 50px;
+  height: 50px;
+  margin: 0.8em;
   border-radius: 50%;
   background-color: transparent;
-  border: 1px solid #7510F7;
-  color: #7510F7;
+  border: 1px solid #f7ef10;
+  color: #f71027;
 }
 
 .socialmedia-icons a .fa:hover {
-  background-color: #7510F7;
+  background-color: #f7ef10;
   color: #141c3a;
+}
+
+.avt {
+  color: #f71027;
 }
 
 @media screen and (max-width: 780px) {
