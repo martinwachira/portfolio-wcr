@@ -10,7 +10,6 @@
 }
 
 .navbar > .navbar-container {
-
   width: 100%;
 }
 
@@ -85,7 +84,14 @@ a {
   }
 
   .navbar-mobile-top {
-    width: 83.0581%;
+    width: 80%;
+  }
+
+  .top-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
   }
 }
 
@@ -104,7 +110,7 @@ a {
  .navbar-toggle {
       display: block !important;
   }
-  .navbar-opened:host .container {
+  .navbar-opened:host .navbar-container {
       height: auto !important;
       padding: 0px !important;
   }

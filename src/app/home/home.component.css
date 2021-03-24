@@ -40,6 +40,10 @@ h1 {
   text-align: center;
 }
 
+.socialmedia-icons a {
+  text-decoration: none;
+}
+
 .socialmedia-icons a .fa {
   display: inline-flex;
   justify-content: center;
